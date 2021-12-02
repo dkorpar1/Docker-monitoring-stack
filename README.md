@@ -30,6 +30,10 @@ From the root directory of this repo, run the command below:
 $ docker-compose up -d
 ```
 
+Grafana default login is admin:admin - Please note that you will be promted to change the password on first login.
+## Add your own checks (optional)
+All rules defined in ./prometheus/prometheus.yml and ./prometheus/alert.yml will be loaded by Alertmanager. A couple of pretty basic alerts are provided as part of the stack, but feel free to add yours.
+
 ## References
 
 - https://github.com/danguita/prometheus-monitoring-stack/edit/master/README.md
